@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    overflow:hidden;
+    background-image:url(assets/background.png);
+    color: #FFFFFF;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding: 5% 0% 3% 12%;
+}
+
+.cabecalho__menu {
+    margin-left: 670px;
+    text-decoration: none;
+    color: #FFFFFF;
+    gap: 50px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.botao__menu__booknow {
+    margin-left: 101px;
+}
+
+.botao__home {
+    color: #FBB034;
+}
+
+.botao__menu    {
+    color: #FFFFFF;
+}
+
+.principal__textos {
+    padding: 20% 20% 3% 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 513px;
+    height: 217px;
+    gap: 22px;
+}
+
+.principal__paragrafo {
+    color: #FBB034;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.principal__titulo {
+    line-height: 1.5ch;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.principal__subtitulo {
+    line-height: 106.5%;
+    width: 389px;
+    color: #9A9A9A;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.principal__links {
+    padding: 2% 20% 22% 12%;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+
+}
+
+.imagem__principal {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.principal__corte {
+    position: absolute;
+    height: 83%;
+    bottom: 0px;
+}
+
+.link__botao1 {
+    background: #FBB034;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000000;
+    padding: 18px 53px;
+}
+
+.link__botao2 {
+    border: 1px solid;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 18px 53px;
+}
+
+/* Hovers */
+
+.link__botao1:hover {
+    background: #fdc162;
+}
+
+.botao__home:hover {
+    color: #fdc162;
+}   
